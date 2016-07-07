@@ -1,0 +1,192 @@
+body {
+	margin: 0px;
+}
+
+.resMenu li a {
+
+	text-decoration: none;
+	color: black;
+	font-size: 2vw;
+}
+
+.resMenu {
+
+	list-style-type: none;
+	padding: 0;
+	height: 3%;
+	float: right;
+	margin-right: 1%;
+	margin-top: 1%;
+}
+
+.resMenu li {
+
+	float: left;
+	margin: 10px 10px;
+}
+
+header img {
+	float: left;
+	margin: 1% 6%;
+}
+
+.picBig .bigPic {
+
+	width: 100%;
+	margin-top: 3%;
+}
+.picBig .theMenu {
+	display: block;
+	margin: 0 auto;
+	width: 10%;
+}
+.orderMenu ul {
+	list-style-type: none;
+	margin-left: 5%;
+}
+.orderMenu li {
+	float: left;
+	width: 50%;
+	font-size: 2vw;
+	font-family: serif;
+	margin-top: 5%
+}
+
+.orderMenu hr {
+
+	display: inline-block;
+	width: 25%;
+	margin: 0 6%;
+}
+.orderMenu p {
+	font-family: cursive;
+	font-size: 0.5em;
+	margin-top: 0;
+	color: silver;
+	
+}
+.text{
+	font-weight: bold;
+	font-size: 2vw;
+}
+.text hr{
+	display: inline-block;
+	width: 25%;
+    margin-left: 7%;
+}
+.featured,.theGallery
+{
+	margin-top: 20%;
+    margin-left: 10%;
+
+}
+.clear-fix
+{
+	overflow: hidden;
+	clear:both;
+}
+ .imges div  {
+	float:left;
+	 margin: 3%;
+	
+}
+.imges span{
+display: block;
+margin-top: 10%;
+color: silver;
+font-size: 1em;
+}
+.imges img{
+ 	width: 100%;
+ }
+ .theGallery img{
+ 	float:left;
+ }
+ .galleryPic
+ {
+ 	    margin-top: 5%;
+ }
+
+@media screen and (max-width: 1236px) {
+ 
+.theGallery img {
+width:30%;
+ }
+}
+footer  {
+	background-color: #3b3b3b;
+	width: 100%;
+	    height: 30%;
+    margin-top: 10%;
+    
+	
+}
+.contant {
+	color:white;
+	width: 15%;
+	    float: left;
+    margin: 1% 5%;
+        line-height: 200%;
+        font-size: 1vw;
+}
+.contant a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 1vw;
+}
+
+.contant img{
+	    width: 50%;
+
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}	
+
